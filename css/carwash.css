@@ -1,0 +1,380 @@
+body {overflow-x: hidden;}
+
+h1{
+    font-size: 44px !important;
+}
+p{
+    color: gray;
+    font-size: 17px;
+    text-align: justify;
+}
+.search i:hover{
+    color: orangered !important;
+}
+.topheader{
+    background-color: #072040;
+}
+.topheader a{
+    color: gray;
+}
+.topheader a:hover{
+    color: #fff;
+}
+.brandlogo{
+    height: 14vh;
+    width: 150px;
+}
+.bannerimages{
+    height: 700px;
+    width: 100%;
+}
+.bannerquote{
+    top: 20%;
+    left: 10%;
+    color: #fff;
+    left: 26%;
+    top: 40%;
+}
+.bannerquote h2{
+    font-size: 60px !important;
+}
+.bannerfont h1{
+    font-size: 50px;
+}
+.bannerfont p{
+    font-size: 25px;
+}
+.menu{
+    font-size: 20px;
+    gap: 40px !important;
+    color: gray;
+}
+.menu li a{
+    text-decoration: none;
+    color: grey;
+}
+.detailedimages{
+    height: 270px !important;
+    width: 600px !important;
+}
+.bgmoto{
+    background-image: url(../images/bgsteps.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.icons{
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    background-color: whitesmoke;
+    padding: 15px;
+    color: blue;
+}
+.icons:hover{
+    background-color: skyblue;
+    transition: 1.5s;
+}
+.images{
+    margin-top: -30px;    
+}
+.concept{
+    padding-bottom: 40px;
+}
+.concept p{
+    font-size: 17px;
+    color: grey;
+    line-height:28px;
+    text-align: justify;
+    user-select: none;
+}
+.arrow{
+    background-color: lightgrey;
+}
+.arrow:hover{
+    color: white;
+    background-color: skyblue;
+    transition: 0.5s;
+}
+.direction a{
+    display: flex;
+    color: #454545;
+    background-color: lightgrey;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center;
+    font-size: 20px;
+    position: absolute;
+    left: 45%;
+    top: 96%;
+}
+.direction a:hover{
+    color: #fff;
+    background-color: #072040;
+}
+.heading:hover{
+    color: orangered;
+    transition: 0.5s;
+}
+.head1{
+    margin-top: 50px;
+}
+.call{
+    font-size: 28px;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+}
+.contactsection{
+    margin-bottom:100px;
+    background-color: #F2F4F4;
+}
+.girl{
+    width: 100%;
+    height: 650px;
+    clip-path: polygon(0 0, 100% 0, 94% 101%, 0% 101%);
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    position: absolute;
+    left: 80%;
+    bottom: 50%;
+    z-index: 1 ;
+    clip-path: polygon(0 0, 100% 0, 70% 101%, 0% 101%);
+    animation: hero_shadow 3s ease-in-out infinite alternate;
+}
+
+@keyframes hero_shadow{
+    0% {
+        transform: translatey(-15px);
+      }
+      100% {
+        transform: translatey(15px);
+      }
+}
+
+.certification{
+    width: 80%;
+    padding: 10px 50px;
+    position: absolute;
+    left: 15%;
+    bottom: -30px;
+}
+.certification a:hover{
+    color: #072040 !important;
+}
+.anounce{
+    margin-left: 50px;
+    width: 80%;
+}
+.staff_links{
+    background-color: orangered;
+    gap: 40px;
+    padding: 5px 30px !important;
+    clip-path: polygon(0 0, 90% 0, 85% 101%, 0% 101%);
+}
+.staff_links a:hover{
+    color: #072040 !important;
+}
+.cards{
+    position: relative;
+}
+.social{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 66%;
+}
+.member{
+    padding: 0px 25px !important;
+}
+.booking{
+    background-color: orangered;
+    padding: 100px 0;
+}
+.offer{
+    height: 550px;
+    width: 80%;
+    border: 15px solid white;
+    border-radius: 15px;
+}
+.second_icons{
+    width: 100px;
+    height: 100px;
+}
+.servicelist{
+    background-image: url(../images/marc-doucakis-IhXYfHEbN5c-unsplash.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    padding: 80px 0px;
+    margin: 100px 0px;
+}
+.services{
+    gap: 0;
+}
+.service_list li{
+    color: #fff;
+    font-size: 18px;
+    line-height: 2;
+}
+.service_list li i{
+    margin-right: 15px;
+}
+.head3{
+    margin: 50px 0px;
+}
+.vehicle_type:hover{
+    background-color: gray;
+    color: #fff;
+    
+}
+.vehicle_type img:hover{
+    transition: 2s;
+    transform: scale(1.1);
+}
+.price_quote{
+    background-color: #DDF7F7;
+    padding: 25px 35px;
+    margin: 15px 0;
+}
+.price_quote h1{
+    font-size: 50px !important;
+    margin: 15px 0px;
+}
+.servicetypes{
+    line-height: 40px;
+    font-size: 18px;
+    padding: 30px 100px;
+    list-style: none; 
+}
+.gallery-icon{
+    width: 250px;
+    height: 230px;
+    border-radius: 10px 50px;
+    margin: 10px 0;
+}
+footer{
+    background-color: #454545;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+footer ul li{
+    line-height: 2;
+    font-size: 17px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: lightgray;
+}
+footer ul li a:hover{
+    color: #fff !important;
+}
+.f-heading{
+    padding: 20px 0px;
+}
+.socialmedia a{
+    display: flex;
+    color: #454545;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center;
+    font-size: 20px;
+}
+.socialmedia a:hover{
+    color: #fff;
+    background-color: #072040;
+    transition: 1s;
+}
+.booking .btn{
+    background-color: #072040 !important;
+    color: #fff;
+}
+.btn{
+    background-color: orangered !important;
+}
+.btn:hover{
+    background-color: green !important;
+}
+
+@media screen and (max-width:376px) {
+    .services{
+        flex-direction: column;
+    }
+    .images{
+        height: 220px !important;
+    }
+    .concept{
+        width: 100% !important;
+        margin: auto;
+    }
+    .staff{
+        height: 320px;
+        width: 100%;
+    }
+    .social{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 75%;
+    }
+    .bannerquote{
+        left: 2%;
+    }
+}
+@media screen and (max-width:769px) {
+    .services{
+        flex-direction: column;
+    }
+    .images{
+        height: 400px;
+    }
+    .concept{
+        width: 70%;
+        margin: auto;
+    }
+    .staff{
+        height: 550px;
+        width: 90%;
+    }
+    .social{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 77%;
+    }
+    .bannerquote{
+        left: 3%;
+    }
+    
+}
+@media screen and (min-width:769px) {
+    .images{
+        height: 150px;
+    }
+    .staff{
+        width: 100%;
+        height: 350px;
+    }
+    
+    
+}
+
+
+
+
+
